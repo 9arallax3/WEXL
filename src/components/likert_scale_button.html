@@ -1,0 +1,85 @@
+<form data-ajax="true" data-ajax-method="POST" data-ajax-success="OnSuccessSaveUserFeedback" id="frmFeedback" action="/OnlineInsurance/AHealthRWOnline/Travel/SaveCustomerFeedback" method="post">
+                            <div class="feedbody">
+                                <div class="form-group">
+                                        <label>How would you rate your online buying experience with HDFC ERGO?</label>
+                                    <input data-val="true" data-val-number="The field TransactionNo must be a number." data-val-required="The TransactionNo field is required." id="Feedback_TransactionNo" name="Feedback.TransactionNo" type="hidden" value="3322105841087.0">
+                                    <div class="heat-rating">
+                                        <div class="verypoor">
+                                            <div class="rating-block one activityLog" name="FeedbackRating" data-value="1.0">1</div>
+                                            <span>Very Poor</span>
+                                        </div>
+                                        <div class="poor">
+                                            <div class="rating-block two activityLog" name="FeedbackRating" data-value="2.0">2</div>
+                                            <div class="rating-block three activityLog" name="FeedbackRating" data-value="3.0">3</div>
+                                            <div class="rating-block four activityLog" name="FeedbackRating" data-value="4.0">4</div>
+                                            <div class="rating-block five activityLog" name="FeedbackRating" data-value="5.0">5</div>
+                                            <div class="rating-block six activityLog" name="FeedbackRating" data-value="6.0">6</div>
+                                            <span>Poor</span>
+                                        </div>
+                                        <div class="average">
+                                            <div class="rating-block seven activityLog" name="FeedbackRating" data-value="7.0">7</div>
+                                            <div class="rating-block eight activityLog" name="FeedbackRating" data-value="8.0">8</div>
+                                            <span>Average</span>
+                                        </div>
+                                        <div class="good">
+                                            <div class="rating-block nine activityLog" name="FeedbackRating" data-value="9.0">9</div>
+                                            <span>Good</span>
+                                        </div>
+                                        <div class="excellent">
+                                            <div class="rating-block ten activityLog" name="FeedbackRating" data-value="10.0">10</div>
+                                            <span>Excellent</span>
+                                        </div>
+                                        <input class="validate" data-val="true" data-val-range=" Please select valid rating." data-val-range-max="10" data-val-range-min="0" data-val-required="Please select Rating" id="Feedback_FeedbackRating" name="Feedback.FeedbackRating" type="hidden" value="" />
+                                    </div>
+                                </div>
+                                <span class="field-validation-valid error-msg" data-valmsg-for="Feedback.FeedbackRating" data-valmsg-replace="true"></span>
+                                <div class="form-group feedbackform-group">
+                                        <label>How likely are you to recommend HDFC ERGO to your Friends and Family?</label>
+                                    <div class="heat-rating">
+                                        <div class="verypoor">
+                                            <div class="rating-block1 one activityLog" name="RecommendationRating" data-value="1.0">1</div>
+                                            <span>Very Poor</span>
+                                        </div>
+                                        <div class="poor">
+                                            <div class="rating-block1 two activityLog" name="RecommendationRating" data-value="2.0">2</div>
+                                            <div class="rating-block1 three activityLog" name="RecommendationRating" data-value="3.0">3</div>
+                                            <div class="rating-block1 four activityLog" name="RecommendationRating" data-value="4.0">4</div>
+                                            <div class="rating-block1 five activityLog" name="RecommendationRating" data-value="5.0">5</div>
+                                            <div class="rating-block1 six activityLog" name="RecommendationRating" data-value="6.0">6</div>
+                                            <span>Poor</span>
+                                        </div>
+                                        <div class="average">
+                                            <div class="rating-block1 seven activityLog" name="RecommendationRating" data-value="7.0">7</div>
+                                            <div class="rating-block1 eight activityLog" name="RecommendationRating" data-value="8.0">8</div>
+                                            <span>Average</span>
+                                        </div>
+                                        <div class="good">
+                                            <div class="rating-block1 nine activityLog" name="RecommendationRating" data-value="9.0">9</div>
+                                            <span>Good</span>
+                                        </div>
+                                        <div class="excellent">
+                                            <div class="rating-block1 ten activityLog" name="RecommendationRating" data-value="10.0">10</div>
+                                            <span>Excellent</span>
+                                        </div>
+                                        <div class="textbox form-group">
+                                            <input class="validate" data-val="true" data-val-range=" Please select valid rating." data-val-range-max="10" data-val-range-min="0" data-val-required="Please select Rating" id="Feedback_RecommendationRating" name="Feedback.RecommendationRating" type="hidden" value="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="field-validation-valid error-msg" data-valmsg-for="Feedback.RecommendationRating" data-valmsg-replace="true"></span>
+                                <label>In your opinion, what can be done to further improve your experience?</label>
+                                <div class="form-group tha-bottom">
+                                    <input id="EncryptedPolicyNo" name="EncryptedPolicyNo" type="hidden" value="tAaeT6TwnKKSvl9iuhdGAdppEc2H2tsK" />
+                                    <input type="hidden" id="hdGCProductCode" name="hdGCProductCode" value="0" />
+                                    <textarea autocomplete="off" class="feedbacktextarea" data-maxlength="200" data-val="true" data-val-maxlength="Maximum 200 characters allowed" data-val-maxlength-max="200" data-val-regex="Please enter valid remarks." data-val-regex-pattern="^[a-zA-Z0-9][0-9a-zA-Z\s\.,]&#x2B;$" data-val-required="Please enter Remark" id="Feedback_FeedbackRemark" maxlength="200" name="Feedback.FeedbackRemark">
+</textarea>
+                                    <label for="textarea" class="control-label feedbacktextarealabel">Write here...</label><i class="bar"></i>
+                                    <span class="field-validation-valid error-msg" data-valmsg-for="Feedback.FeedbackRemark" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="text-right"> <a href="#" id="btnSubmit" data-name="feedbackSubmit" class="btnSubmit proceed-btn-small feedbackSubmit anchore-tablog">Submit</a> </div>
+                            </div>
+                        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8FO9CtbsUUFFrVRWPwRP7O55Tr-29KMfcU4uqKDve2BWCoHSlsCvL9b9I5d3lgvHYKkooAHOr5tCbh80x41K7iuYCCzGc7xPC7ouN0i-IVYsEQaUSpUqfbcjYMVtzvRhYqU6fqwLX0y1t3XTV40OhVI" /></form>
+                    </div>
+                </div>
+            </div>
+        
