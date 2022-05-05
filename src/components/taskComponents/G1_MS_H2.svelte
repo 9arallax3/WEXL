@@ -1,38 +1,42 @@
 <script>
 
-    import {taskOne} from '../taskjs/G1_MS_H1';
-    import {randomCorrect} from '../taskjs/right';
-    import {randomWrong} from '../taskjs/wrong';
- 
+import {taskOne} from '../taskjs/G1_MS_H2';
+import {randomCorrect}from '../taskjs/right';
+import {randomWrong} from '../taskjs/wrong';
 
-    let task01 = taskOne();
-    let answer ;
-    let showNext = "none";   
-    let showPopUp;
-    let showSolution= false;    
 
-    let CheckAnswer = function(){
-        
-        showNext = "inline-block";
-        if(answer == task01.answer){
-                 showPopUp = randomCorrect();                  
-                 return;
-             }else{
-                showSolution = true;
-                 showPopUp = randomWrong();                
-             } 
-     }
-     
-     let NextQuestion = function(){
-        answer = null;
-        task01 = taskOne();
-        showSolution = false;
-        showNext = "none";
-     };
-   
- </script>
- 
- <style>
+let task01 = taskOne();
+let answer ;
+let showNext = "none";
+let showPopUp;
+let showSolution = false;
+
+let CheckAnswer = function ()
+{
+    showNext= "inline-block";
+    if(answer=task01.answer){
+        showPopUp = randomCorrect();
+        return;
+
+    }else{
+        showSolution = true;
+        showPopUp = randomWrong();
+    }
+}
+let NextQuestion = function(){
+    answer = null ;
+    task01 = taskOne();
+    showSolution = false;
+    showNext = "none";
+
+};
+
+</script>
+
+
+
+
+<style>
  
 </style>
 

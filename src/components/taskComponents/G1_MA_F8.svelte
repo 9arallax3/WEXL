@@ -1,17 +1,10 @@
 <script>
 
-
-import {taskOne} from '../taskjs/SubNum';
+    import {taskOne} from '../taskjs/G1_MA_F8';
     import {randomCorrect} from '../taskjs/right';
     import {randomWrong} from '../taskjs/wrong';
-    import {MaxandMin} from '../taskjs/SubNum';
+ 
 
-    let heading = "Subtraction facts - numbers up to 10";
-    let question = "Subtract.";
-    const max = 10;
-    const min = 0;
-    const numberofColumn = 2;
-    let maxandmin = MaxandMin(max,min,numberofColumn,heading,question);
     let task01 = taskOne();
     let answer ;
     let showNext = "none";   
@@ -56,6 +49,7 @@ import {taskOne} from '../taskjs/SubNum';
 
 
             <h4>{task01.question}</h4>
+            
      
             <div >   
 
@@ -91,4 +85,3 @@ import {taskOne} from '../taskjs/SubNum';
       </div>
      </div>
   </div>
- 

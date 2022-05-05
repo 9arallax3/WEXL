@@ -81,9 +81,26 @@ import G1_MA_D7 from "./taskComponents/G1_MA_D7.svelte";
 import G1_MA_D8 from "./taskComponents/G1_MA_D8.svelte";
 import G1_MA_D9 from "./taskComponents/G1_MA_D9.svelte";
 import G1_MA_D10 from "./taskComponents/G1_MA_D10.svelte";
+import G1_MA_F1 from "./taskComponents/G1_MA_F1.svelte";
+import G1_MA_F2 from "./taskComponents/G1_MA_F2.svelte";
+import G1_MA_F3 from "./taskComponents/G1_MA_F3.svelte";
+import G1_MA_F4 from "./taskComponents/G1_MA_F4.svelte";
+import G1_MA_F6 from "./taskComponents/G1_MA_F6.svelte";
+import G1_MA_F7 from "./taskComponents/G1_MA_F7.svelte";
+import G1_MA_F8 from "./taskComponents/G1_MA_F8.svelte";
+import G1_MA_F9 from "./taskComponents/G1_MA_F9.svelte";
+import G1_MS_H2 from "./taskComponents/G1_MS_H2.svelte";
+import G1_MS_H3 from "./taskComponents/G1_MS_H3.svelte";
+import G1_MS_H4 from "./taskComponents/G1_MS_H4.svelte";
+import G1_MS_H5 from "./taskComponents/G1_MS_H5.svelte";  
+import G1_MS_H6 from "./taskComponents/G1_MS_H6.svelte"; 
+import G1_MS_H7 from "./taskComponents/G1_MS_H7.svelte"; 
+import G1_MS_H8 from "./taskComponents/G1_MS_H8.svelte"; 
+import G1_MS_H9 from "./taskComponents/G1_MS_H9.svelte"; 
 import G1_MS_H10 from "./taskComponents/G1_MS_H10.svelte";
 import G2_MS_F9 from "./taskComponents/G2_MS_F9.svelte";
 import G1_MS_I2 from "./taskComponents/G1_MS_I2.svelte";
+import G1_MA_E1 from "./taskComponents/G1_MA_E1.svelte";
 import G1_MS_I3 from "./taskComponents/G1_MS_I3.svelte";
 import G1_MS_I4 from "./taskComponents/G1_MS_I4.svelte";
 import G2_MS_H4 from "./taskComponents/G2_MS_H4.svelte";
@@ -1327,7 +1344,7 @@ export const act_list = {
       components: [
         {
           act_text: "Addition facts - sums up to 10",
-          comp: null,
+          comp: G1_MA_E1,
         },
         {
           act_text: "Ways to make a number - addition sentences",
@@ -1399,24 +1416,24 @@ export const act_list = {
     },
     F: {
       subject: "Maths",
-      category: "C",
+      category: "F",
       catType: "Addition strategies",
       components: [
         {
           act_text: "	Add doubles",
-          comp: null,
+          comp: G1_MA_F1,
         },
         {
           act_text: "Add using doubles plus one",
-          comp: null,
+          comp: G1_MA_F2,
         },
         {
           act_text: "Add using doubles minus one",
-          comp: null,
+          comp: G1_MA_F3,
         },
         {
           act_text: "Add three numbers - use doubles",
-          comp: null,
+          comp: G1_MA_F4,
         },
         {
           act_text: "	Complete the addition sentence - make ten",
@@ -1424,19 +1441,19 @@ export const act_list = {
         },
         {
           act_text: "Add three numbers - make ten",
-          comp: null,
+          comp: G1_MA_F6,
         },
         {
           act_text: "Add two multiples of ten",
-          comp: null,
+          comp: G1_MA_F7,
         },
         {
           act_text: "Add a multiple of ten",
-          comp: null,
+          comp: G1_MA_F8,
         },
         {
           act_text: "	Add three numbers",
-          comp: null,
+          comp: G1_MA_F9,
         },
         {
           act_text: "Add three numbers - word problems",
@@ -1480,35 +1497,35 @@ export const act_list = {
         },
         {
           act_text: "Subtraction 2",
-          comp: null,
+          comp:G1_MS_H2,
         },
         {
           act_text: "Subtraction 3",
-          comp: null,
+          comp: G1_MS_H3,
         },
         {
           act_text: "Subtraction 4",
-          comp: null,
+          comp: G1_MS_H4,
         },
         {
           act_text: "Subtraction 5",
-          comp: null,
+          comp: G1_MS_H5,
         },
         {
           act_text: "Subtraction 6",
-          comp: null,
+          comp: G1_MS_H6,
         },
         {
           act_text: "Subtraction 7",
-          comp: null,
+          comp: G1_MS_H7,
         },
         {
           act_text: "Subtraction 8",
-          comp: null,
+          comp: G1_MS_H8,
         },
         {
           act_text: "Subtraction 9",
-          comp: null,
+          comp: G1_MS_H9,
         },
         {
           act_text: "Subtraction 0",
