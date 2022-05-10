@@ -20,7 +20,7 @@ let task01 = {
     
     task01.valueArray[0] = Math.floor(Math.random() * 10  + 1  ) ;   
     task01.valueArray[1] = Math.floor(Math.random() * 10  + 1  )  ;   
-    task01.answer = task01.valueArray[0]  =  task01.valueArray[1] ;
+    task01.answer = task01.valueArray[0]   = task01.valueArray[1] ;
     
     task01.answer = task01.valueArray[0] + task01.valueArray[1]  ;
     return task01;

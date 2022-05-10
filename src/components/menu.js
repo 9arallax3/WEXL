@@ -85,6 +85,7 @@ import G1_MA_F1 from "./taskComponents/G1_MA_F1.svelte";
 import G1_MA_F2 from "./taskComponents/G1_MA_F2.svelte";
 import G1_MA_F3 from "./taskComponents/G1_MA_F3.svelte";
 import G1_MA_F4 from "./taskComponents/G1_MA_F4.svelte";
+import G1_MS_J2 from "./taskComponents/G1_MS_J2.svelte";
 import G1_MA_F6 from "./taskComponents/G1_MA_F6.svelte";
 import G1_MA_F7 from "./taskComponents/G1_MA_F7.svelte";
 import G1_MA_F8 from "./taskComponents/G1_MA_F8.svelte";
@@ -1622,7 +1623,7 @@ export const act_list = {
         },
         {
           act_text: "Subtract doubles",
-          comp: null,
+          comp: G1_MS_J2,
         },
         {
           act_text: "Subtract multiples of 10",

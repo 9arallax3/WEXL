@@ -22,6 +22,7 @@ let task01 = {
     task01.valueArray[1] = 5  ;  
     task01.valueArray[2] = Math.floor(Math.random() * 5 ) + 1   ;  
    
+   
     task01.answer = task01.valueArray[0]  =  task01.valueArray[1]  ;
     
     task01.answer = task01.valueArray[0] + task01.valueArray[1] + task01.valueArray[2] ;

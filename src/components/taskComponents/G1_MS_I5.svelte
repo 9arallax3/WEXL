@@ -7,7 +7,7 @@
   
 
     let question = "Subtract:";
-    let heading = "Complete the addition sentence - sums up to 10";
+    let heading = "Complete the subtraction sentence";
     const max = 9;
     const min = 0;
     const maxInputs = 1;

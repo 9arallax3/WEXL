@@ -19,6 +19,7 @@ let task01 = {
     task01.valueArray = [];
     task01.valueArray[0] = Math.floor(Math.random() * (maxValue + minValue + 1) + minValue ) ;   
     task01.valueArray[1] = additionvalue;   
+   
   
     task01.answer = task01.valueArray[0] + minValue;
   

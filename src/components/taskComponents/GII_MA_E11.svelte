@@ -6,8 +6,8 @@
     import {MaxandMin} from '../taskjs/AddNumwithMissing';
   
 
-    let question = "Fill in the missing number.";
-    let heading = "Complete the addition sentence - one digit";
+    let question = "Fill in the missing number:";
+    let heading = "Complete the addition sentence -make ten. ";
     const max = 10;
     const min = 0;
     const maxInputs = 1;
