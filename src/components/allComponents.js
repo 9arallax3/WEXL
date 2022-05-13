@@ -99,8 +99,8 @@ import G2_MS_F1 from "./taskComponents/G2_MS_F1.svelte";
 import G2_MS_F5 from "./taskComponents/G2_MS_F5.svelte";
 import G1_MS_I15 from "./taskComponents/G1_MS_I15.svelte";
 import G1_MS_I16 from "./taskComponents/G1_MS_I16.svelte";
-import G1_MS_H1 from "./taskComponents/G1_MS_H1.svelte";
-import G1_MS_H10 from "./taskComponents/G1_MS_H10.svelte";
+//import G1_MS_H1 from "./taskComponents/G1_MS_H1.svelte";
+//import G1_MS_H10 from "./taskComponents/G1_MS_H10.svelte";
 import G2_MS_F9 from "./taskComponents/G2_MS_F9.svelte";
 import G1_MS_I2 from "./taskComponents/G1_MS_I2.svelte";
 import G1_MS_I3 from "./taskComponents/G1_MS_I3.svelte";
@@ -1133,7 +1133,7 @@ export const act_list = [
     cat_type: "A",
     act_ID: 37,
     act_text: "Count upto 20",
-    comp: G1_MS_H1,
+    comp: null,
   },
   {
     id: 88,
@@ -1143,7 +1143,7 @@ export const act_list = [
     cat_type: "A",
     act_ID: 37,
     act_text: "Count upto 20",
-    comp: G1_MS_H10,
+    comp: null,
   },
   {
     id: 89,
@@ -1153,7 +1153,7 @@ export const act_list = [
     cat_type: "A",
     act_ID: 37,
     act_text: "Count upto 20",
-    comp: G2_MS_F9,
+    comp: null ,
   },
   {
     id: 90,

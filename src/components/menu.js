@@ -70,35 +70,18 @@ import G2_MS_F1 from "./taskComponents/G2_MS_F1.svelte";
 import G2_MS_F5 from "./taskComponents/G2_MS_F5.svelte";
 import G1_MS_I15 from "./taskComponents/G1_MS_I15.svelte";
 import G1_MS_I16 from "./taskComponents/G1_MS_I16.svelte";
-import G1_MS_H1 from "./taskComponents/G1_MS_H1.svelte";
-import G1_MA_D1 from "./taskComponents/G1_MA_D1.svelte";
-import G1_MA_D2 from "./taskComponents/G1_MA_D2.svelte";
-import G1_MA_D3 from "./taskComponents/G1_MA_D3.svelte";
-import G1_MA_D4 from "./taskComponents/G1_MA_D4.svelte";
-import G1_MA_D5 from "./taskComponents/G1_MA_D5.svelte";
-import G1_MA_D6 from "./taskComponents/G1_MA_D6.svelte";
-import G1_MA_D7 from "./taskComponents/G1_MA_D7.svelte";
-import G1_MA_D8 from "./taskComponents/G1_MA_D8.svelte";
-import G1_MA_D9 from "./taskComponents/G1_MA_D9.svelte";
-import G1_MA_D10 from "./taskComponents/G1_MA_D10.svelte";
-import G1_MA_F1 from "./taskComponents/G1_MA_F1.svelte";
-import G1_MA_F2 from "./taskComponents/G1_MA_F2.svelte";
-import G1_MA_F3 from "./taskComponents/G1_MA_F3.svelte";
-import G1_MA_F4 from "./taskComponents/G1_MA_F4.svelte";
+
+
+//import G1_MA_F1 from "./taskComponents/G1_MA_F1.svelte";
+//import G1_MA_F2 from "./taskComponents/G1_MA_F2.svelte";
+//import G1_MA_F3 from "./taskComponents/G1_MA_F3.svelte";
+//import G1_MA_F4 from "./taskComponents/G1_MA_F4.svelte";
 import G1_MS_J2 from "./taskComponents/G1_MS_J2.svelte";
 import G1_MA_F6 from "./taskComponents/G1_MA_F6.svelte";
 import G1_MA_F7 from "./taskComponents/G1_MA_F7.svelte";
 import G1_MA_F8 from "./taskComponents/G1_MA_F8.svelte";
 import G1_MA_F9 from "./taskComponents/G1_MA_F9.svelte";
-import G1_MS_H2 from "./taskComponents/G1_MS_H2.svelte";
-import G1_MS_H3 from "./taskComponents/G1_MS_H3.svelte";
-import G1_MS_H4 from "./taskComponents/G1_MS_H4.svelte";
-import G1_MS_H5 from "./taskComponents/G1_MS_H5.svelte";  
-import G1_MS_H6 from "./taskComponents/G1_MS_H6.svelte"; 
-import G1_MS_H7 from "./taskComponents/G1_MS_H7.svelte"; 
-import G1_MS_H8 from "./taskComponents/G1_MS_H8.svelte"; 
-import G1_MS_H9 from "./taskComponents/G1_MS_H9.svelte"; 
-import G1_MS_H10 from "./taskComponents/G1_MS_H10.svelte";
+
 import G2_MS_F9 from "./taskComponents/G2_MS_F9.svelte";
 import G1_MS_I2 from "./taskComponents/G1_MS_I2.svelte";
 import G1_MA_E1 from "./taskComponents/G1_MA_E1.svelte";
@@ -146,6 +129,46 @@ import G4_MS_C4 from "./taskComponents/G4_MS_C4.svelte";
 import G4_MS_C5 from "./taskComponents/G4_MS_C5.svelte";
 import G4_MS_C6 from "./taskComponents/G4_MS_C6.svelte";
 import G4_MS_C7 from "./taskComponents/G4_MS_C7.svelte";
+
+
+
+
+
+
+// ******************************  G1 - maths F , D and H ****************************************  
+
+
+
+import G1_MA_D1 from "./G1_MA_D1.svelte";
+import G1_MA_D2 from "./G1_MA_D2.svelte";
+import G1_MA_D3 from "./G1_MA_D3.svelte";
+import G1_MA_D4 from "./G1_MA_D4.svelte";
+import G1_MA_D5 from "./G1_MA_D5.svelte";
+import G1_MA_D6 from "./G1_MA_D6.svelte";
+import G1_MA_D7 from "./G1_MA_D7.svelte";
+import G1_MA_D8 from "./G1_MA_D8.svelte";
+import G1_MA_D9 from "./G1_MA_D9.svelte";
+import G1_MA_D10 from "./G1_MA_D10.svelte"; 
+
+import G1_MA_F1 from "./G1_MA_F1.svelte"; 
+import G1_MA_F2 from "./G1_MA_F2.svelte"; 
+import G1_MA_F3 from "./G1_MA_F3.svelte"; 
+import G1_MA_F4 from "./G1_MA_F4.svelte"; 
+
+import G1_MS_H1 from "./G1_MS_H1.svelte";
+import G1_MS_H2 from "./G1_MS_H2.svelte";
+import G1_MS_H3 from "./G1_MS_H3.svelte";
+import G1_MS_H4 from "./G1_MS_H4.svelte";
+import G1_MS_H5 from "./G1_MS_H5.svelte";  
+import G1_MS_H6 from "./G1_MS_H6.svelte"; 
+import G1_MS_H7 from "./G1_MS_H7.svelte"; 
+import G1_MS_H8 from "./G1_MS_H8.svelte"; 
+import G1_MS_H9 from "./G1_MS_H9.svelte"; 
+import G1_MS_H10 from "./G1_MS_H10.svelte";
+
+import Add100 from "./add100.svelte";
+import add_twoNumb from "./add_twoNumb.svelte";
+import Add_1Button from "./add_1_button.svelte";
 
 export const act_list = {
   LKG: {

@@ -1,3 +1,4 @@
+
 <script>
     import {taskOne} from '../taskjs/GV_MA_A2.js';
     import {randomCorrect} from '../taskjs/right';

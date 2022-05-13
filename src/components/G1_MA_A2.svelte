@@ -66,13 +66,15 @@
                     <img src={'images/shapes/' + images.BOX_SHPCOLOR_REPO[img_rn].img_fn} 
                         align="middle" 
                         width=10%  
-                        height=auto 
+                        height=auto
+                        alt="" 
                     />
                 {:else}
                     <img src={'images/shapes/' + images.BOX_SHPCOLOR_REPO[0].img_fn} 
                         align="middle" 
                         width=10%  
                         height=auto 
+                        alt="" 
                     />
                 {/if}
             {:else if i == 5}
@@ -82,12 +84,14 @@
                         align="middle" 
                         width=10%  
                         height=auto 
+                        alt="" 
                     />
                 {:else}
                     <img src={'images/shapes/' + images.BOX_SHPCOLOR_REPO[0].img_fn} 
                         align="middle" 
                         width=10%  
                         height=auto 
+                        alt="" 
                     />
                 {/if}
             {:else}
@@ -96,12 +100,14 @@
                         align="middle" 
                         width=10%  
                         height=auto 
+                        alt="" 
                     />
                 {:else}
                     <img src={'images/shapes/' + images.BOX_SHPCOLOR_REPO[0].img_fn} 
                         align="middle" 
                         width=10%  
                         height=auto 
+                        alt="" 
                     />
                 {/if}
             {/if}    

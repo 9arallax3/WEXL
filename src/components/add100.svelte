@@ -7,15 +7,15 @@
     let rerun=false;
     let usr_exit=false;
 
-    const COUNT_LOWNUM = 0;
-    const COUNT_HIGHNUM = 100;
+    const COUNT_LOWNUM = 1;
+    const COUNT_HIGHNUM = 10;
 
     let cnt_rn1 = 0;
     let cnt_rn2 = 0;
     let c_ans_rn = c_ans.CORRECT_ANS_MSG_LOWNUM;
     let w_ans_rn = w_ans.WRONG_ANS_MSG_LOWNUM;
-    let correct_answer = -1;
-    let usr_resp = -1;
+    let correct_answer = 0;
+    let usr_resp = 0;
 
 
     function init_add100() {
@@ -24,7 +24,7 @@
         c_ans_rn = Math.floor(Math.random() * c_ans.CORRECT_ANS_MSG_HIGHNUM + c_ans.CORRECT_ANS_MSG_LOWNUM);
         w_ans_rn = Math.floor(Math.random() * w_ans.WRONG_ANS_MSG_HIGHNUM + w_ans.WRONG_ANS_MSG_LOWNUM);
         correct_answer = cnt_rn1 + cnt_rn2;
-        usr_resp = -1;
+        usr_resp = 0;
         ans_submit = false;
     };
     init_add100();
