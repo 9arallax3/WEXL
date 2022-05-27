@@ -35,6 +35,7 @@ import G1_MA_A1f from "./G1_MA_A1f.svelte";
 import G2_MA_A1a from "./G2_MA_A1a.svelte";
 import G2_MA_A1b from "./G2_MA_A1b.svelte";
 
+import G1_MA_D1 from   "./G1_MA_D1.svelte";
 //************************************
 // Counting related Identifiers
 //************************************
@@ -71,8 +72,9 @@ export const ID_G1_MA_A1f = ID_G1_MA_A1e +1;  //grid, range:20-50, torf
 // Grade 2 - counting 0-200
 export const ID_G2_MA_A1a = ID_G1_MA_A1f +1;  //grid, range:0-200, textbox
 export const ID_G2_MA_A1b = ID_G2_MA_A1a +1;  //grid, range:0-200, torf
+export const ID_G1_MA_D1 = ID_G2_MA_A1b +1;  
 
-export const COUNTING_TASK_END_ID = ID_G2_MA_A1b;
+export const COUNTING_TASK_END_ID = ID_G1_MA_D1;
 
 //******************************* */
 // Activities List 
@@ -447,13 +449,13 @@ export const COUNTING_TASKS_LIST = [
   },
   // may not be accessing this old-task
   {
-    id: 0,
-    grade: 1,
-    subject: "math",
-    cat: "counting and number patterns",
-    cat_type: "A",
-    act_ID: 1,
-    act_text: "counting review - upto 10",
-    comp: Gk_MA_A1,
+    id: ID_G1_MA_D1,
+    comp: G1_MA_D1,
+    COUNT_HIGHNUM : 30 ,
+    COUNT_LOWNUM : 0 ,
+    Fixed_num : 7 ,
+    op : "-",
+    rn1 : 0 ,
+    rn2 : 0 ,
   },
 ];

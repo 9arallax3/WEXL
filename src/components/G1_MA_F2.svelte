@@ -44,18 +44,18 @@
     <div>
       <h2 style="color:orange">Adding Double plus one:</h2>
       <br>
-      <h3>Add near doubles:</h3>
+      <h3>Add the near doubles:</h3>
       <!--for loop over the answer which is a random number-->
       <br>
-     <h2>{rn1} + {rn2} = <input bind:value={usr_resp} /> </h2>
+     <h2>{rn1} + {rn2} = ? </h2>
     </div>
 
     
   
     <div>
       <br />
-     <!-- <p>Enter your answer here:</p>-->
-      
+     <p>Enter your answer here:</p>
+     <input bind:value={usr_resp} />
       <p style="color:aqua">
         Correct answer is {correct_answer}, but answer submitted is {usr_resp}
       </p>
@@ -64,12 +64,11 @@
       
       {#if ans_submit}
 
-      <!--  why parseInt when we can say if ans_submit == correct_answer ? -->
-
         {#if parseInt(usr_resp, 10) == correct_answer}
           <h>{c_ans.CORRECT_ANS_MSG[c_ans_rn].msg}</h>
         {:else}
           <p>{w_ans.WRONG_ANS_MSG[w_ans_rn].msg}</p>
+          
         {/if}
       {/if}
     </div>

@@ -126,7 +126,9 @@ init_countObj();
                             align="middle"
                             width={pvAry_img[i].pv_img_size}
                             height=auto
+                            alt = ""
                             style="padding-left: 10px; padding-bottom: 20px;"/>
+                            
                     {/each}
                 {/each}
                 </div>

@@ -1,7 +1,5 @@
 <script>
-
-
-    import {taskOne} from '../taskjs/G1_MA_E1';
+        import {taskOne} from '../taskjs/G1_MA_E1';
         import {randomCorrect} from '../taskjs/right';
         import {randomWrong} from '../taskjs/wrong';
         import {MaxandMin} from '../taskjs/G1_MA_E1';

@@ -13,19 +13,22 @@
     let ans_submit = false;
   
     const COUNT_LOWNUM = 1;
-    const COUNT_HIGHNUM = 10;
+    const COUNT_HIGHNUM = 5;
   
     let  rn1 = 0;
     let  rn2 = 0;
+    let rn3 =0;
     
   
     function add_upto_n() {
-      rn1 = Math.floor(Math.random() * (COUNT_HIGHNUM)* 1 + 1);
-      rn2 = rn1 - 1;
+      rn1 = Math.floor(Math.random() * (COUNT_HIGHNUM) * 2  +1 );
+      rn3 = Math.floor(Math.random() * (COUNT_HIGHNUM) * 2 + 1 );
+      rn2 = 10 - rn1;
       c_ans_rn = Math.floor(Math.random() * c_ans.CORRECT_ANS_MSG_HIGHNUM +c_ans.CORRECT_ANS_MSG_LOWNUM);
+     
       w_ans_rn = Math.floor(Math.random() * w_ans.WRONG_ANS_MSG_HIGHNUM + w_ans.WRONG_ANS_MSG_LOWNUM);
-    
-      correct_answer = rn1 + rn2;
+      correct_answer ;
+      correct_answer = rn1 + rn2 + rn3;
 
 
       usr_resp ;
@@ -42,20 +45,20 @@
   
   <div class="stack-large">
     <div>
-      <h2 style="color:orange">Add Double minus one:</h2>
+      <h2 style="color:orange">Adding three numbers - make ten:</h2>
       <br>
-      <h3>Add the near doubles:</h3>
+      <h3>Add:</h3>
       <!--for loop over the answer which is a random number-->
       <br>
-     <h2>{rn1} + {rn2} = <input type ="number"bind:value={usr_resp} /> </h2>
+     <h2>{rn1} + {rn2} + {rn3} = ? </h2>
     </div>
 
     
   
     <div>
       <br />
-     <!-- <p>Enter your answer here:</p>-->
-      
+     <p>Enter your answer here:</p>
+     <input type ="number"bind:value={usr_resp} />
       <p style="color:aqua">
         Correct answer is {correct_answer}, but answer submitted is {usr_resp}
       </p>
@@ -83,4 +86,4 @@
       Exit This Skill</button
     >
   </div>
-  
+   

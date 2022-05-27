@@ -2,7 +2,7 @@
 // given activity. Listing of activities are given in
 // activity repo json objects present in allComponents.js, 
 
-import { ID_Gk_MA_A1a } from "../allCountingComp";
+import { ID_G1_MA_D1, ID_Gk_MA_A1a } from "../allCountingComp";
 
 // allCountingComponents.js, allWEXLCountingComponents.js files etc.
 export let taskObject = {
@@ -79,6 +79,17 @@ export let sc_obj = {
     subject: null,
     taskID: null,
   };
+
+  export let ops_n_obj ={
+     // component_id: ID_G1_MA_D1,
+      COUNT_HIGHNUM : 0 ,
+      COUNT_LOWNUM : 0 ,
+      fixed_num : 1 ,
+      op : "-",
+      rn1 : 0 ,
+      rn2 : 0 ,
+      
+  }
 
 // data structure for storing some custom configuration 
 // these are used to create unique settings for some tasks

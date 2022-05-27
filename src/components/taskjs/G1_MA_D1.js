@@ -7,9 +7,9 @@ let task01 = {
     columns: 0
   };
   
-  const additionvalue = 1;
-  const maxValue = 18;
-  const minValue = 1;
+const additionvalue = 1;
+const maxValue = 18;
+const minValue = 1;
   
   export function taskOne() {
     task01.heading = "Adding 1";
@@ -21,7 +21,7 @@ let task01 = {
     task01.valueArray[1] = additionvalue;   
    
   
-    task01.answer = task01.valueArray[0] + minValue;
+    task01.answer = task01.valueArray[0]  + minValue;
   
     return task01;
   };

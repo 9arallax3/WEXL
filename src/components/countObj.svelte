@@ -1,7 +1,6 @@
 <script >
 import {randmNumb, shuffleAry} from './taskjs/Utility/commUtil.js';
-import { sc_obj, custActConfig, renderedActivity, buttontnObject, MAX3BTN, 
-    number_line_object, count_Line_Obj, MAX_LINE_WIDTH, NUMBER_WORDS} from "./taskjs/taskObjDefn.js";
+import { sc_obj, custActConfig, ops_n_obj, renderedActivity, buttontnObject, MAX3BTN,number_line_object, count_Line_Obj, MAX_LINE_WIDTH, NUMBER_WORDS} from "./taskjs/taskObjDefn.js";
 import {buildTaskObj} from './taskjs/taskObjBuilderj.js';
 
 // various image repositories
