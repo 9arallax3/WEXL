@@ -14,7 +14,7 @@
   export  let  fixed_num = 1;
   export  let  usr_resp = null;
   export  let  ans_submit = false;
-  export  let  h_question = " Adding upto ";
+  export  let  head_question = " Adding upto ";
   export  let  sub_question = " Add the two numbers : ";
   export  let  rand_upto = 1 ;
 
@@ -28,7 +28,6 @@
     rn2 = fixed_num;
     console.log("correct ans: ",correct_answer,"high num : ",COUNT_HIGHNUM," rn1: ",rn1," n:",rn2," op:",op); 
   
-
     switch (op) {
         case "+":
           console.log("inside case + : op = ",op);
@@ -64,7 +63,7 @@
 
  <div class="stack-large">
   <div>
-    <h2 style="color:orange">{h_question} {COUNT_HIGHNUM} </h2>
+    <h2 style="color:orange">{head_question} {COUNT_HIGHNUM} </h2>
     <br />
     <h3>{sub_question}</h3>
     <br />

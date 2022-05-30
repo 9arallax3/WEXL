@@ -75,7 +75,7 @@ import G1_MS_I16 from "./taskComponents/G1_MS_I16.svelte";
 //import G1_MA_F2 from "./taskComponents/G1_MA_F2.svelte";
 //import G1_MA_F3 from "./taskComponents/G1_MA_F3.svelte";
 //import G1_MA_F4 from "./taskComponents/G1_MA_F4.svelte";
-import G1_MS_J2 from "./taskComponents/G1_MS_J2.svelte";
+// import G1_MS_J2 from "./taskComponents/G1_MS_J2.svelte";
 /* import G1_MA_F6 from "./taskComponents/G1_MA_F6.svelte";
 import G1_MA_F7 from "./taskComponents/G1_MA_F7.svelte";
 import G1_MA_F8 from "./taskComponents/G1_MA_F8.svelte";
@@ -132,6 +132,8 @@ import G4_MS_C7 from "./taskComponents/G4_MS_C7.svelte";
 // ******************************  G1 - maths F , D and H ****************************************
 
 import operations_upto_n from "./operations_upto_n.svelte";
+import G1_MA_C4 from "./G1_MA_C4.svelte";
+
 
 import G1_MA_D1 from "./G1_MA_D1.svelte";
 import G1_MA_D2 from "./G1_MA_D2.svelte";
@@ -143,6 +145,7 @@ import G1_MA_D7 from "./G1_MA_D7.svelte";
 import G1_MA_D8 from "./G1_MA_D8.svelte";
 import G1_MA_D9 from "./G1_MA_D9.svelte";
 import G1_MA_D10 from "./G1_MA_D10.svelte";
+
 
 import G1_MA_F1 from "./G1_MA_F1.svelte";
 import G1_MA_F2 from "./G1_MA_F2.svelte";
@@ -163,6 +166,10 @@ import G1_MS_H7 from "./G1_MS_H7.svelte";
 import G1_MS_H8 from "./G1_MS_H8.svelte";
 import G1_MS_H9 from "./G1_MS_H9.svelte";
 import G1_MS_H10 from "./G1_MS_H10.svelte";
+
+import G1_MS_J2 from "./G1_MS_J2.svelte";
+import G1_MS_J3 from "./G1_MS_J3.svelte";
+import G1_MS_J4 from "./G1_MS_J4.svelte";
 
 export const act_list = {
   LKG: {
@@ -1304,7 +1311,7 @@ export const act_list = {
         },
         {
           act_text: "Adding zero",
-          comp: null,
+          comp: G1_MA_C4,
         },
       ],
     },
@@ -1644,11 +1651,11 @@ export const act_list = {
         },
         {
           act_text: "Subtract multiples of 10",
-          comp: null,
+          comp: G1_MS_J3,
         },
         {
           act_text: "Subtract a multiple of 10",
-          comp: null,
+          comp: G1_MS_J4,
         },
       ],
     },

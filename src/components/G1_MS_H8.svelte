@@ -2,10 +2,10 @@
 
   import Ops_n_comp from "./operations_upto_n.svelte";
   
-  export let COUNT_HIGHNUM = 10;
+  export let COUNT_HIGHNUM = 20;
   export let fixed_num = 8 ;
   export let op = "-" ;
-  export let h_question = "Subtraction upto :" ;
+  export let head_question = "Subtraction upto :" ;
   export let sub_question = "Subtract the two numbers :" ;
   export let rand_upto = 8 ;
 
@@ -13,6 +13,6 @@
 
 <!-- Binds the values  -->
 
-<Ops_n_comp   bind:COUNT_HIGHNUM    bind:fixed_num    bind:op    bind:h_question    bind:sub_question    bind:rand_upto/>
+<Ops_n_comp   bind:COUNT_HIGHNUM    bind:fixed_num    bind:op    bind:head_question    bind:sub_question    bind:rand_upto/>
 
 <!-- Markup if needed -->

@@ -23,7 +23,6 @@
       rn2 = Math.floor(Math.random() * (COUNT_HIGHNUM )+ 1) * 10 ;
   
       c_ans_rn = Math.floor(Math.random() * c_ans.CORRECT_ANS_MSG_HIGHNUM +c_ans.CORRECT_ANS_MSG_LOWNUM);
-     
       w_ans_rn = Math.floor(Math.random() * w_ans.WRONG_ANS_MSG_HIGHNUM + w_ans.WRONG_ANS_MSG_LOWNUM);
    
       correct_answer = rn1 + rn2 ;

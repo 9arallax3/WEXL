@@ -21,11 +21,6 @@ export function taskOne() {
   task01.displayValueTwo =
     Math.floor(Math.random() * (maxValue - minValue)) + minValue;
   task01.answer = task01.displayValueOne + task01.displayValueTwo;
-  task01.question =
-    "After a natural disaster, a clothing company wanted to help. The company donated " +
-    task01.displayValueOne +
-    " shirts and " +
-    task01.displayValueTwo +
-    " pairs of trousers. How many pieces of clothing did the company donate?";
+  task01.question = "After a natural disaster, a clothing company wanted to help. The company donated " + task01.displayValueOne + " shirts and " + task01.displayValueTwo + " pairs of trousers. How many pieces of clothing did the company donate?";
   return task01;
 }
