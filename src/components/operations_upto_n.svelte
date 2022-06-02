@@ -27,6 +27,10 @@
     rn1 = Math.floor(Math.random() * (COUNT_HIGHNUM - fixed_num) + (rand_upto) );
     rn2 = fixed_num;
     console.log("correct ans: ",correct_answer,"high num : ",COUNT_HIGHNUM," rn1: ",rn1," n:",rn2," op:",op); 
+    
+     c_ans_rn = Math.floor(Math.random() * c_ans.CORRECT_ANS_MSG_HIGHNUM + c_ans.CORRECT_ANS_MSG_LOWNUM);
+     
+     w_ans_rn = Math.floor(Math.random() * w_ans.WRONG_ANS_MSG_HIGHNUM + w_ans.WRONG_ANS_MSG_LOWNUM);
   
     switch (op) {
         case "+":

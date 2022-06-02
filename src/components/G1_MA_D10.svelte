@@ -4,8 +4,8 @@
   export let COUNT_HIGHNUM = 10;
   export let fixed_num = 0;
   export let op = "+";
-  export let head_question = "Addition upto :";
-  export let sub_question = "Add the two numbers :";
+  export let head_question = "Addition :";
+  export let sub_question = "Add :";
 </script>
 
 <!-- Binds the values  -->

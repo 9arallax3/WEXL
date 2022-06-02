@@ -131,7 +131,15 @@ import G4_MS_C7 from "./taskComponents/G4_MS_C7.svelte";
 
 // ******************************  G1 - maths F , D and H ****************************************
 
-import operations_upto_n from "./operations_upto_n.svelte";
+//import G1_MA_A1a from "./G1_MA_A1a.svelte";
+import G1_MA_A2 from "./G1_MA_A2.svelte";
+import G1_MA_A3 from "./G1_MA_A3.svelte";
+import G1_MA_A4 from "./G1_MA_A4.svelte";
+//import G1_MA_A5 from "./G1_MA_A5.svelte";
+import G1_MA_A6 from "./G1_MA_A6.svelte";
+import G1_MA_A14 from "./G1_MA_A14.svelte";
+
+
 import G1_MA_C4 from "./G1_MA_C4.svelte";
 
 
@@ -156,6 +164,7 @@ import G1_MA_F7 from "./G1_MA_F7.svelte";
 import G1_MA_F8 from "./G1_MA_F8.svelte";
 import G1_MA_F9 from "./G1_MA_F9.svelte";
 
+
 import G1_MS_H1 from "./G1_MS_H1.svelte";
 import G1_MS_H2 from "./G1_MS_H2.svelte";
 import G1_MS_H3 from "./G1_MS_H3.svelte";
@@ -166,6 +175,7 @@ import G1_MS_H7 from "./G1_MS_H7.svelte";
 import G1_MS_H8 from "./G1_MS_H8.svelte";
 import G1_MS_H9 from "./G1_MS_H9.svelte";
 import G1_MS_H10 from "./G1_MS_H10.svelte";
+
 
 import G1_MS_J2 from "./G1_MS_J2.svelte";
 import G1_MS_J3 from "./G1_MS_J3.svelte";
@@ -1189,15 +1199,15 @@ export const act_list = {
         },
         {
           act_text: "Count to fill a ten frame",
-          comp: null,
+          comp:G1_MA_A2,
         },
         {
           act_text: "Counting review - up to 20",
-          comp: null,
+          comp: G1_MA_A3,
         },
         {
           act_text: "Counting tens and ones - up to 30",
-          comp: null,
+          comp: G1_MA_A4,
         },
         {
           act_text: "Count on ten frames - up to 40",
@@ -1205,7 +1215,7 @@ export const act_list = {
         },
         {
           act_text: "Counting - up to 100",
-          comp: null,
+          comp: G1_MA_A6,
         },
         {
           act_text: "Counting tens and ones - up to 99",
@@ -1237,7 +1247,7 @@ export const act_list = {
         },
         {
           act_text: "	Identify numbers as even or odd",
-          comp: null,
+          comp: G1_MA_A14,
         },
         {
           act_text: "Even or odd numbers on number lines",
@@ -1369,7 +1379,7 @@ export const act_list = {
       components: [
         {
           act_text: "Addition facts - sums up to 10",
-          comp: G1_MA_E1,
+          comp: GI_MA_E1,
         },
         {
           act_text: "Ways to make a number - addition sentences",
@@ -1401,7 +1411,7 @@ export const act_list = {
         },
         {
           act_text: "	Addition word problems - sums up to 18",
-          comp: GI_MA_E9,
+          comp: null,
         },
         {
           act_text: "Addition sentences for word problems - sums up to 18",

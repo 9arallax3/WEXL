@@ -67,7 +67,7 @@ import GII_MA_E4 from "./taskComponents/GII_MA_E4.svelte";
 import GII_MA_E6 from "./taskComponents/GII_MA_E6.svelte";
 import GII_MA_E7 from "./taskComponents/GII_MA_E7.svelte";
 import GII_MA_E8 from "./taskComponents/GII_MA_E8.svelte";
-import GII_MA_E9 from "./taskComponents/GII_MA_E9.svelte";
+import GII_MA_E9 from "./GII_MA_E9.svelte";
 import GII_MA_E12 from "./taskComponents/GII_MA_E12.svelte";
 import GII_MA_E13 from "./taskComponents/GII_MA_E13.svelte";
 import GII_MA_E14 from "./taskComponents/GII_MA_E14.svelte";

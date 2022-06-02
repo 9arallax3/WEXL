@@ -2,6 +2,7 @@
     import * as images from './jsfiles/Image_repo.js';
     import * as c_ans from './jsfiles/correct_ans_repo.js';
     import * as w_ans from './jsfiles/wrong_ans_repo.js';
+    import NPad from './Input_digits_20btn.svelte';
 
     let ans_submit=false;
     let rerun=false;
@@ -15,7 +16,7 @@
     let c_ans_rn = c_ans.CORRECT_ANS_MSG_LOWNUM;
     let w_ans_rn = w_ans.WRONG_ANS_MSG_LOWNUM;
     let correct_answer = -1;
-    let usr_resp = -1;
+    let usr_resp = null;
     let label = '';
     let fn = '';
 
@@ -54,7 +55,7 @@
     <div>
         <br>
         <p>Enter your answer here: </p>
-        <NPad bind:usr_select={usr_resp}/>
+        <input type="number" bind:value="{usr_resp}">
         {#if ans_submit}
         {#if (usr_resp === correct_answer)}
             <p>{c_ans.CORRECT_ANS_MSG[c_ans_rn].msg}</p>
